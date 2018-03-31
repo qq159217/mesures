@@ -1,0 +1,162 @@
+.container {
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+#menu {
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0px;
+    z-index: 70;
+    background-color: #fff;
+    opacity: 0.65;
+}
+
+#menu .logo {
+    float: left;
+    margin-right: 30px;
+}
+
+#menu li {
+    width: 166px;
+    text-align: center;
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+
+#menu a {
+    float: left;
+    color: #d6d7d7;
+    text-decoration: none;
+}
+
+/* #menu .active a {
+    /* color: #fff; */
+
+/* background-color: #333; */
+
+/* border-bottom: 2px solid #FF7CEAD1; */
+
+}
+
+*/ .section {
+    /* margin-top: 68px; */
+    border: blue 5px solid;
+}
+
+/* banner */
+
+.banner_mxs {
+    background: url("../images/B3208A2C-7538-4756-B94D-C396E24D8E34@1x.png") center;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.banner_mxs h2 {
+    position: relative;
+    left: 242px;
+    top: 215px;
+    width: 888px;
+    height: 234px;
+    line-height: 140px;
+    color: rgba(38, 229, 255, 1);
+    font-size: 100px;
+    text-align: center;
+    font-family: PingFangSC-Thin;
+}
+
+.banner_mxs h4 {
+    position: relative;
+    left: 429px;
+    top: 281px;
+    width: 207px;
+    height: 22px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    text-align: center;
+    font-family: PingFangSC-Thin;
+}
+
+/* summary_mxs 页面 */
+
+.summary_mxs h3 {
+    left: 99px;
+    top: 733px;
+    width: 194px;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 36px;
+    text-align: center;
+    font-family: PingFangSC-Light;
+}
+
+.summary_mxs .fr {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+}
+
+.summary_mxs .fl {
+    background-color: #ccc;
+    width: 50%;
+    height: 100%;
+}
+
+/* 合作部分 */
+
+.collaboration_mxs {
+    margin: 0;
+}
+
+/* 退队介绍 */
+
+/* .team_mxs div {
+    margin: 0 auto;
+} */
+
+.team_mxs ul {
+    /*width: 100%;*/
+    /*position: absolute;
+    left: 0;
+    bottom: 0;*/
+}
+
+.team_mxs ul li {
+    /* left: 87px;
+    top: 2579px; */
+    width: 251px;
+    height: 264px;
+    background-color: rgba(246, 248, 250, 1);
+    float: left;
+    margin-right: 49px;
+  
+}
+
+/* 共享家族部分 */
+
+.familly_mxs {
+    background: #d6d7d7;
+}
+
+/* 联系我们 */
+
+.connection_mxs {
+    background: red;
+}
+
+.connection_mxs .connection {
+    width: 50%;
+    height: 100%;
+    background: blue;
+}
+
+.connection_mxs .map {
+    width: 50%;
+    height: 100%;
+    background: orange;
+}
